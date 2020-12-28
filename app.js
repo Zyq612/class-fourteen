@@ -89,7 +89,7 @@ function race(candidates) {
 
   trackEl.innerHTML = players.map((p, i) => {
     return `<div>
-      <span class="horse">${randomItem(['??', '??', '??', '??']).value}</span>
+      <span class="horse">${randomItem(['🐎', '🐖', '🐄', '🦔']).value}</span>
       <span class="player">${p[1]} ${i + 1}</span>
     </div>`;
   }).join('');
@@ -99,7 +99,7 @@ function race(candidates) {
   const round3 = partRace(durations, 0.5);
   const round4 = durations.map(d => d + 0.1);
 
-  const results = ['??', '??', '??', '??', '??', '??'];
+  const results = ['🥇', '🥈', '🥉', '😩', '😫', '😭'];
 
   const T = 8000;
 

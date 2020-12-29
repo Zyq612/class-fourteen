@@ -33,7 +33,7 @@ function filterWinner(members) {
   return members.filter(m => !winners.has(m));
 }
 
-let members = [ '王宏伟', '耗子鼠', '王丽', '李高杉', '李东', '陈素荷', '杨群芳'
+let members = [ '1', '2', '3', '4', '5', '6', '7'
 ];
 
 members = filterWinner(members);
